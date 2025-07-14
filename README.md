@@ -39,11 +39,12 @@ Source: https://www.iea.org/countries/india/emissions
 
 ---
 
-## Data Sources
+## References
 
-- International Energy Agency (IEA):  
+- International Energy Agency (IEA) – for CO₂ emissions-related insights and data references:  
   https://www.iea.org/countries/india/emissions
-- Carbon Footprint Calculator:  
+
+- Carbon Footprint Calculator – for emission estimation and contextual understanding:  
   https://www.carbonfootprint.com/calculator.aspx
 
 ---
