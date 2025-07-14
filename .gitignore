@@ -1,0 +1,5 @@
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore Windows system files
+desktop.ini
