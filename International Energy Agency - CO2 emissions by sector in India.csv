@@ -1,0 +1,208 @@
+"CO2 emissions by sector in India",Value,Year,Units
+"Electricity and heat producers",459.143,2000, Mt CO2
+"Electricity and heat producers",471.948,2001, Mt CO2
+"Electricity and heat producers",479.405,2002, Mt CO2
+"Electricity and heat producers",501.598,2003, Mt CO2
+"Electricity and heat producers",548.321,2004, Mt CO2
+"Electricity and heat producers",561.403,2005, Mt CO2
+"Electricity and heat producers",596.73,2006, Mt CO2
+"Electricity and heat producers",658.464,2007, Mt CO2
+"Electricity and heat producers",685.728,2008, Mt CO2
+"Electricity and heat producers",757.576,2009, Mt CO2
+"Electricity and heat producers",784.633,2010, Mt CO2
+"Electricity and heat producers",818.71,2011, Mt CO2
+"Electricity and heat producers",944.389,2012, Mt CO2
+"Electricity and heat producers",964.942,2013, Mt CO2
+"Electricity and heat producers",1082.153,2014, Mt CO2
+"Electricity and heat producers",1069.129,2015, Mt CO2
+"Electricity and heat producers",1055.826,2016, Mt CO2
+"Electricity and heat producers",1111.957,2017, Mt CO2
+"Electricity and heat producers",1186.75,2018, Mt CO2
+"Electricity and heat producers",1178.956,2019, Mt CO2
+"Electricity and heat producers",1083.281,2020, Mt CO2
+"Electricity and heat producers",1185.765,2021, Mt CO2
+"Electricity and heat producers",1327.13,2022, Mt CO2
+"Transport Sector",95.089,2000, Mt CO2
+"Transport Sector",94.918,2001, Mt CO2
+"Transport Sector",97.737,2002, Mt CO2
+"Transport Sector",99.526,2003, Mt CO2
+"Transport Sector",108.051,2004, Mt CO2
+"Transport Sector",115.403,2005, Mt CO2
+"Transport Sector",120.648,2006, Mt CO2
+"Transport Sector",142.976,2007, Mt CO2
+"Transport Sector",163.209,2008, Mt CO2
+"Transport Sector",178.711,2009, Mt CO2
+"Transport Sector",192.918,2010, Mt CO2
+"Transport Sector",209.289,2011, Mt CO2
+"Transport Sector",221.517,2012, Mt CO2
+"Transport Sector",226.258,2013, Mt CO2
+"Transport Sector",235.747,2014, Mt CO2
+"Transport Sector",257.747,2015, Mt CO2
+"Transport Sector",269.386,2016, Mt CO2
+"Transport Sector",291.232,2017, Mt CO2
+"Transport Sector",305.69,2018, Mt CO2
+"Transport Sector",308.559,2019, Mt CO2
+"Transport Sector",268.679,2020, Mt CO2
+"Transport Sector",295.091,2021, Mt CO2
+"Transport Sector",323.762,2022, Mt CO2
+"Industry Sector",193.553,2000, Mt CO2
+"Industry Sector",195.219,2001, Mt CO2
+"Industry Sector",208.921,2002, Mt CO2
+"Industry Sector",199.68,2003, Mt CO2
+"Industry Sector",209.536,2004, Mt CO2
+"Industry Sector",233.856,2005, Mt CO2
+"Industry Sector",261.644,2006, Mt CO2
+"Industry Sector",296.738,2007, Mt CO2
+"Industry Sector",311.223,2008, Mt CO2
+"Industry Sector",342.351,2009, Mt CO2
+"Industry Sector",393.645,2010, Mt CO2
+"Industry Sector",442.716,2011, Mt CO2
+"Industry Sector",435.414,2012, Mt CO2
+"Industry Sector",463.587,2013, Mt CO2
+"Industry Sector",500.068,2014, Mt CO2
+"Industry Sector",516.426,2015, Mt CO2
+"Industry Sector",530.416,2016, Mt CO2
+"Industry Sector",559.92,2017, Mt CO2
+"Industry Sector",569.723,2018, Mt CO2
+"Industry Sector",554.529,2019, Mt CO2
+"Industry Sector",516.703,2020, Mt CO2
+"Industry Sector",592.596,2021, Mt CO2
+"Industry Sector",607.114,2022, Mt CO2
+"Residential",62.562,2000, Mt CO2
+"Residential",61.28,2001, Mt CO2
+"Residential",63.657,2002, Mt CO2
+"Residential",65.253,2003, Mt CO2
+"Residential",69.425,2004, Mt CO2
+"Residential",69.97,2005, Mt CO2
+"Residential",70.856,2006, Mt CO2
+"Residential",70.752,2007, Mt CO2
+"Residential",71.732,2008, Mt CO2
+"Residential",74.756,2009, Mt CO2
+"Residential",76.271,2010, Mt CO2
+"Residential",77.643,2011, Mt CO2
+"Residential",76.512,2012, Mt CO2
+"Residential",78.201,2013, Mt CO2
+"Residential",82.009,2014, Mt CO2
+"Residential",84.129,2015, Mt CO2
+"Residential",85.688,2016, Mt CO2
+"Residential",85.959,2017, Mt CO2
+"Residential",88.721,2018, Mt CO2
+"Residential",90.792,2019, Mt CO2
+"Residential",94.393,2020, Mt CO2
+"Residential",95.635,2021, Mt CO2
+"Residential",98.771,2022, Mt CO2
+"Commercial and Public Services",10.121,2000, Mt CO2
+"Commercial and Public Services",10.042,2001, Mt CO2
+"Commercial and Public Services",10.968,2002, Mt CO2
+"Commercial and Public Services",11.466,2003, Mt CO2
+"Commercial and Public Services",9.625,2004, Mt CO2
+"Commercial and Public Services",9.971,2005, Mt CO2
+"Commercial and Public Services",10.506,2006, Mt CO2
+"Commercial and Public Services",12.599,2007, Mt CO2
+"Commercial and Public Services",13.669,2008, Mt CO2
+"Commercial and Public Services",14.814,2009, Mt CO2
+"Commercial and Public Services",16.451,2010, Mt CO2
+"Commercial and Public Services",19.097,2011, Mt CO2
+"Commercial and Public Services",20.973,2012, Mt CO2
+"Commercial and Public Services",21.427,2013, Mt CO2
+"Commercial and Public Services",21.793,2014, Mt CO2
+"Commercial and Public Services",23.824,2015, Mt CO2
+"Commercial and Public Services",26.323,2016, Mt CO2
+"Commercial and Public Services",28.416,2017, Mt CO2
+"Commercial and Public Services",30.381,2018, Mt CO2
+"Commercial and Public Services",32.626,2019, Mt CO2
+"Commercial and Public Services",30.307,2020, Mt CO2
+"Commercial and Public Services",33.713,2021, Mt CO2
+"Commercial and Public Services",34.931,2022, Mt CO2
+"Agriculture/Forestry",25.191,2000, Mt CO2
+"Agriculture/Forestry",24.459,2001, Mt CO2
+"Agriculture/Forestry",24.834,2002, Mt CO2
+"Agriculture/Forestry",24.342,2003, Mt CO2
+"Agriculture/Forestry",25.298,2004, Mt CO2
+"Agriculture/Forestry",23.69,2005, Mt CO2
+"Agriculture/Forestry",26.551,2006, Mt CO2
+"Agriculture/Forestry",24.572,2007, Mt CO2
+"Agriculture/Forestry",22.581,2008, Mt CO2
+"Agriculture/Forestry",24.645,2009, Mt CO2
+"Agriculture/Forestry",26.374,2010, Mt CO2
+"Agriculture/Forestry",28.513,2011, Mt CO2
+"Agriculture/Forestry",30.367,2012, Mt CO2
+"Agriculture/Forestry",30.819,2013, Mt CO2
+"Agriculture/Forestry",30.901,2014, Mt CO2
+"Agriculture/Forestry",30.735,2015, Mt CO2
+"Agriculture/Forestry",31.482,2016, Mt CO2
+"Agriculture/Forestry",33.484,2017, Mt CO2
+"Agriculture/Forestry",34.381,2018, Mt CO2
+"Agriculture/Forestry",33.992,2019, Mt CO2
+"Agriculture/Forestry",30.736,2020, Mt CO2
+"Agriculture/Forestry",32.392,2021, Mt CO2
+"Agriculture/Forestry",34.775,2022, Mt CO2
+"Fishing",0,2000, Mt CO2
+"Fishing",0,2001, Mt CO2
+"Fishing",0,2002, Mt CO2
+"Fishing",0,2003, Mt CO2
+"Fishing",0,2004, Mt CO2
+"Fishing",0,2005, Mt CO2
+"Fishing",0,2006, Mt CO2
+"Fishing",0,2007, Mt CO2
+"Fishing",0,2008, Mt CO2
+"Fishing",0,2009, Mt CO2
+"Fishing",0,2010, Mt CO2
+"Fishing",0,2011, Mt CO2
+"Fishing",0,2012, Mt CO2
+"Fishing",0,2013, Mt CO2
+"Fishing",0,2014, Mt CO2
+"Fishing",0,2015, Mt CO2
+"Fishing",0,2016, Mt CO2
+"Fishing",0,2017, Mt CO2
+"Fishing",0,2018, Mt CO2
+"Fishing",0,2019, Mt CO2
+"Fishing",0,2020, Mt CO2
+"Fishing",0,2021, Mt CO2
+"Fishing",,2022, Mt CO2
+"Non-specified (Other)",13.345,2000, Mt CO2
+"Non-specified (Other)",14.806,2001, Mt CO2
+"Non-specified (Other)",16.218,2002, Mt CO2
+"Non-specified (Other)",23.6,2003, Mt CO2
+"Non-specified (Other)",22.886,2004, Mt CO2
+"Non-specified (Other)",23.782,2005, Mt CO2
+"Non-specified (Other)",20.283,2006, Mt CO2
+"Non-specified (Other)",17.043,2007, Mt CO2
+"Non-specified (Other)",60.915,2008, Mt CO2
+"Non-specified (Other)",36.69,2009, Mt CO2
+"Non-specified (Other)",33.64,2010, Mt CO2
+"Non-specified (Other)",19.907,2011, Mt CO2
+"Non-specified (Other)",24.915,2012, Mt CO2
+"Non-specified (Other)",21.293,2013, Mt CO2
+"Non-specified (Other)",23.224,2014, Mt CO2
+"Non-specified (Other)",23.999,2015, Mt CO2
+"Non-specified (Other)",24.903,2016, Mt CO2
+"Non-specified (Other)",25.356,2017, Mt CO2
+"Non-specified (Other)",25.98,2018, Mt CO2
+"Non-specified (Other)",23.952,2019, Mt CO2
+"Non-specified (Other)",22.756,2020, Mt CO2
+"Non-specified (Other)",27.415,2021, Mt CO2
+"Non-specified (Other)",28.528,2022, Mt CO2
+"Other energy industries",32.094,2000, Mt CO2
+"Other energy industries",33.409,2001, Mt CO2
+"Other energy industries",34.174,2002, Mt CO2
+"Other energy industries",34.813,2003, Mt CO2
+"Other energy industries",36.407,2004, Mt CO2
+"Other energy industries",38.164,2005, Mt CO2
+"Other energy industries",42.599,2006, Mt CO2
+"Other energy industries",44.818,2007, Mt CO2
+"Other energy industries",37.2,2008, Mt CO2
+"Other energy industries",30.981,2009, Mt CO2
+"Other energy industries",34.212,2010, Mt CO2
+"Other energy industries",41.234,2011, Mt CO2
+"Other energy industries",42.959,2012, Mt CO2
+"Other energy industries",43.474,2013, Mt CO2
+"Other energy industries",45.931,2014, Mt CO2
+"Other energy industries",47.722,2015, Mt CO2
+"Other energy industries",52.29,2016, Mt CO2
+"Other energy industries",56.11,2017, Mt CO2
+"Other energy industries",58.667,2018, Mt CO2
+"Other energy industries",64.301,2019, Mt CO2
+"Other energy industries",62.891,2020, Mt CO2
+"Other energy industries",61.276,2021, Mt CO2
+"Other energy industries",61.953,2022, Mt CO2
