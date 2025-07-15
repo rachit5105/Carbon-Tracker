@@ -13,10 +13,7 @@ This project is part of the Edunet Internship Program and focuses on India’s c
 Carbon Tracker helps:
 - Analyze CO₂ emissions by fuel type and industrial sector
 - Track changes across years
-- Visualize per capita emissions
-
-The datasets used in this project are sourced from the International Energy Agency (IEA).  
-Source: https://www.iea.org/countries/india/emissions
+- Estimate personal CO₂ impact using a CO₂ footprint calculator  
 
 ---
 
@@ -46,6 +43,8 @@ Source: https://www.iea.org/countries/india/emissions
 
 - Carbon Footprint Calculator – for emission estimation and contextual understanding:  
   https://www.carbonfootprint.com/calculator.aspx
+
+- The dataset used in this project was generated with the assistance of ChatGPT by OpenAI, based on publicly available reference data formats.
 
 ---
 
