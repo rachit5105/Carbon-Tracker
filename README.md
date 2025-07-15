@@ -1,4 +1,4 @@
-# This is Machine Learning Based Carbon Tracker Project
+# A Machine Learning-powered Carbon Tracker project for CO₂ analysis.
 
 # Carbon Tracker
 
