@@ -150,14 +150,20 @@ A comprehensive machine learning-based project and web application for analyzing
 
 ## 🔧 How to Run
 
-### Step 1: Clone the repository:
+### Step 1: Clone the repository
+```bash
 git clone https://github.com/rachit5105/Carbon-Tracker.git
 cd Carbon-Tracker
+```
 
 ### Step 2: Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 ### Step 3: Run the application
+```bash
 streamlit run app.py
+```
 
 ---
