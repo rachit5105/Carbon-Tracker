@@ -126,7 +126,7 @@ A comprehensive machine learning-based project and web application for analyzing
 
 ---
 
-## References
+## 📚 References
 
 - International Energy Agency (IEA) – for CO₂ emissions-related insights and data references:  
   https://www.iea.org/countries/india/emissions
@@ -150,17 +150,14 @@ A comprehensive machine learning-based project and web application for analyzing
 
 ## 🔧 How to Run
 
-### 1. Clone the repository:
-
-```bash
+### Step 1: Clone the repository:
 git clone https://github.com/rachit5105/Carbon-Tracker.git
 cd Carbon-Tracker
 
-```bash
-# Install all dependencies
+### Step 2: Install dependencies
 pip install -r requirements.txt
 
-# Run the web app
+### Step 3: Run the application
 streamlit run app.py
 
 ---
