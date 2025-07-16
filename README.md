@@ -138,6 +138,16 @@ A comprehensive machine learning-based project and web application for analyzing
 
 ---
 
+## 👨‍💻 Developed By
+
+- Rachit Patel  
+- Pruthvi Thakor  
+- Meet Patel  
+
+> Developed as part of the Edunet Internship 2025 — Skill4Future Program.
+
+---
+
 ## 🔧 How to Run
 
 ### 1. Clone the repository:
@@ -152,15 +162,5 @@ pip install -r requirements.txt
 
 # Run the web app
 streamlit run app.py
-
----
-
-## 👨‍💻 Developed By
-
-- Rachit Patel  
-- Pruthvi Thakor  
-- Meet Patel  
-
-> Developed as part of the Edunet Internship 2025 — Skill4Future Program.
 
 ---
