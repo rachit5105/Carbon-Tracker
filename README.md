@@ -126,7 +126,25 @@ A comprehensive machine learning-based project and web application for analyzing
 
 ---
 
+## References
+
+- International Energy Agency (IEA) – for CO₂ emissions-related insights and data references:  
+  https://www.iea.org/countries/india/emissions
+
+- Carbon Footprint Calculator – for emission estimation and contextual understanding:  
+  https://www.carbonfootprint.com/calculator.aspx
+
+- The dataset used in this project was generated with the assistance of ChatGPT by OpenAI, based on publicly available reference data formats.
+
+---
+
 ## 🔧 How to Run
+
+### 1. Clone the repository:
+
+```bash
+git clone https://github.com/rachit5105/Carbon-Tracker.git
+cd Carbon-Tracker
 
 ```bash
 # Install all dependencies
@@ -134,3 +152,15 @@ pip install -r requirements.txt
 
 # Run the web app
 streamlit run app.py
+
+---
+
+## 👨‍💻 Developed By
+
+- Rachit Patel  
+- Pruthvi Thakor  
+- Meet Patel  
+
+> Developed as part of the Edunet Internship 2025 — Skill4Future Program.
+
+---
