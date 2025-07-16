@@ -3,3 +3,6 @@
 
 # Ignore Windows system files
 desktop.ini
+
+# Ignore Auto Generate Python compiled bytecode
+__pycache__/
