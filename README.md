@@ -78,7 +78,7 @@ A comprehensive machine learning-based project and web application for analyzing
 
 ---
 
-## 📌 Overview
+## Overview
 
 **Carbon Tracker** aims to:
 - Analyze CO₂ emissions by **fuel type**, **sector**, and **region**
@@ -88,7 +88,7 @@ A comprehensive machine learning-based project and web application for analyzing
 
 ---
 
-## ⚙️ Technologies Used
+## Technologies Used
 
 | Area | Tools |
 |------|-------|
@@ -100,33 +100,33 @@ A comprehensive machine learning-based project and web application for analyzing
 
 ---
 
-## 🚀 Features
+## Features
 
-### 📊 Emission Analysis Dashboard
+### Emission Analysis Dashboard
 - Fuel-wise & sector-wise breakdown (2000–2022)
 - Per capita & total emission trends
 - Interactive pie and bar charts
 - India state-wise insights
 
-### 🧮 Carbon Footprint Calculator
+### Carbon Footprint Calculator
 - Input 8 lifestyle factors: travel, food, electricity, etc.
 - ML-powered real-time CO₂ prediction
 - Personalized reduction suggestions
 - Compare with national average
 
-### 🤖 Machine Learning Insights
+### Machine Learning Insights
 - Random Forest Regressor model
 - Training, testing, and performance metrics
 - Feature importance analysis
 
-### 🎨 UI & UX
+### UI & UX
 - Responsive design (Streamlit)
 - Custom styling with gradients and emojis
 - Fast and clean dashboard layout
 
 ---
 
-## 📚 References
+## References
 
 - International Energy Agency (IEA) – for CO₂ emissions-related insights and data references:  
   https://www.iea.org/countries/india/emissions
@@ -138,7 +138,7 @@ A comprehensive machine learning-based project and web application for analyzing
 
 ---
 
-## 👨‍💻 Developed By
+## Developed By
 
 - Rachit Patel  
 - Pruthvi Thakor  
@@ -148,7 +148,7 @@ A comprehensive machine learning-based project and web application for analyzing
 
 ---
 
-## 🔧 How to Run
+## How to Run
 
 ### Step 1: Clone the repository
 ```bash
