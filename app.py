@@ -261,14 +261,14 @@ def main():
         
         with col1:
             total_emissions = fuel_df['Value'].sum()
-            st.metric("Total Emissions (2022)", f"{total_emissions:.1f} Mt", "📈")
+            st.metric("Total Fuel Emissions (2022)", f"{total_emissions:.1f} Mt", delta="per year 📈")
         
         with col2:
             coal_percentage = (fuel_df[fuel_df['CO2 emissions by fuel, India, 2022'] == 'Coal']['Value'].sum() / total_emissions) * 100
-            st.metric("Coal Share", f"{coal_percentage:.1f}%", "🔥")
+            st.metric("Coal Share (2022)", f"{coal_percentage:.1f}%", "🔥")
         
         with col3:
-            st.metric("Avg. Personal Footprint", f"{avg_footprint:.1f} kg", "👤")
+            st.metric("Avg. Emission Per Record", f"{avg_footprint:.1f} kg", delta="per day 👤")
         
         with col4:
             model_accuracy = r2 * 100
@@ -338,17 +338,17 @@ def main():
                     st.info("📊 Your footprint is around average.")
                 
                 # Tips
-                st.markdown("### 💡 Tips to Reduce Your Carbon Footprint:")
-                tips = [
-                    "🚲 Use public transport, walk, or bike instead of driving",
-                    "💡 Switch to LED bulbs and energy-efficient appliances",
-                    "🌱 Eat more plant-based meals and less meat",
-                    "♻️ Reduce, reuse, and recycle waste",
-                    "🌡️ Use programmable thermostats and insulate your home",
-                    "💧 Conserve water and fix leaks promptly"
-                ]
-                for tip in tips:
-                    st.markdown(f"• {tip}")
+                # st.markdown("### 💡 Tips to Reduce Your Carbon Footprint:")
+                # tips = [
+                #     "🚲 Use public transport, walk, or bike instead of driving",
+                #     "💡 Switch to LED bulbs and energy-efficient appliances",
+                #     "🌱 Eat more plant-based meals and less meat",
+                #     "♻️ Reduce, reuse, and recycle waste",
+                #     "🌡️ Use programmable thermostats and insulate your home",
+                #     "💧 Conserve water and fix leaks promptly"
+                # ]
+                # for tip in tips:
+                #     st.markdown(f"• {tip}")
     
     elif page == "📈 Data Analysis":
         st.markdown('<h2 class="sub-header">📈 Data Analysis & Insights</h2>', unsafe_allow_html=True)
@@ -366,30 +366,26 @@ def main():
             st.info(f"**Categories:** {', '.join(categories.index)}")
             st.info(f"**States Covered:** {df['state'].nunique()}")
         
-        # Distribution plots
+        # Data Distributions (Only Emissions by category will remain)
         st.subheader("📊 Data Distributions")
         
-        col1, col2 = st.columns(2)
+        # Create a single column for this plot to take full width
+        col_full_width = st.columns(1)[0] # [0] is used to get the single column object
         
-        with col1:
-            # CO2 emissions distribution
-            fig = px.histogram(df, x='co2_emission_kg', nbins=20, 
-                             title='Distribution of CO₂ Emissions')
-            st.plotly_chart(fig, use_container_width=True)
-        
-        with col2:
+        with col_full_width: 
             # Emissions by category
             fig = px.box(df, x='category', y='co2_emission_kg',
-                        title='CO₂ Emissions by Category')
-            st.plotly_chart(fig, use_container_width=True)
-        
+                         title='CO₂ Emissions by Category')
+            fig.update_layout(height=600) # Keep height as desired
+            st.plotly_chart(fig, use_container_width=True) 
+
         # Correlation matrix
         st.subheader("🔗 Feature Correlations")
         numeric_cols = df.select_dtypes(include=[np.number]).columns
         corr_matrix = df[numeric_cols].corr()
         
         fig = px.imshow(corr_matrix, text_auto=True, aspect="auto",
-                       title="Feature Correlation Matrix")
+                        title="Feature Correlation Matrix")
         st.plotly_chart(fig, use_container_width=True)
         
         # State-wise analysis
@@ -398,7 +394,7 @@ def main():
         state_emissions.columns = ['State', 'Average', 'Total', 'Count']
         
         fig = px.bar(state_emissions, x='State', y='Average',
-                    title='Average CO₂ Emissions by State')
+                     title='Average CO₂ Emissions by State')
         fig.update_xaxes(tickangle=45)
         st.plotly_chart(fig, use_container_width=True)
     
@@ -423,14 +419,14 @@ def main():
         st.plotly_chart(importance_chart, use_container_width=True)
         
         # Model details
-        st.subheader("⚙️ Model Configuration")
-        st.json({
-            "algorithm": "Random Forest Regressor",
-            "n_estimators": 100,
-            "random_state": 42,
-            "test_size": 0.2,
-            "features": list(feature_names)
-        })
+        # st.subheader("⚙️ Model Configuration")
+        # st.json({
+        #     "algorithm": "Random Forest Regressor",
+        #     "n_estimators": 100,
+        #     "random_state": 42,
+        #     "test_size": 0.2,
+        #     "features": list(feature_names)
+        # })
         
         # Predictions vs Actual
         st.subheader("📈 Model Predictions")
@@ -466,7 +462,7 @@ def main():
     st.markdown("""
     <div style="text-align: center; color: #666; margin-top: 2rem;">
         <p>🌱 Carbon Tracker - Making environmental impact visible and actionable</p>
-        <p>Built with ❤️ using Streamlit | Data source: International Energy Agency</p>
+<p>Built with ❤️ using Streamlit | Data Source: International Energy Agency | Data generated with the assistance of ChatGPT by OpenAI</p>
     </div>
     """, unsafe_allow_html=True)
 
