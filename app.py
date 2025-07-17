@@ -225,9 +225,9 @@ def calculate_carbon_footprint(model, temperature, travel_km, electricity_units,
     return prediction
 
 def main():
-    # Header
-    st.markdown('<h1 class="main-header">🌱 Carbon Tracker Dashboard</h1>', unsafe_allow_html=True)
-    st.markdown('<div class="info-box">A comprehensive platform for analyzing CO₂ emissions and calculating your carbon footprint</div>', unsafe_allow_html=True)
+    # # Header
+    # st.markdown('<h1 class="main-header">🌱 Carbon Tracker Dashboard</h1>', unsafe_allow_html=True)
+    # st.markdown('<div class="info-box">A comprehensive platform for analyzing CO₂ emissions and calculating your carbon footprint</div>', unsafe_allow_html=True)
     
     # Load data
     df, fuel_df, fuel_historical, sector_df, sector_historical, per_capita_df = load_data()
@@ -254,6 +254,10 @@ def main():
     )
     
     if page == "📊 Dashboard":
+        st.markdown('<h1 class="main-header">📊 Carbon Tracker Dashboard</h1>', unsafe_allow_html=True) # Moved here
+
+        st.markdown('<div class="info-box">A comprehensive platform for analyzing CO₂ emissions and calculating your carbon footprint</div>', unsafe_allow_html=True)
+
         st.markdown('<h2 class="sub-header">📊 CO₂ Emissions Overview</h2>', unsafe_allow_html=True)
         
         # Key metrics
@@ -274,6 +278,16 @@ def main():
             model_accuracy = r2 * 100
             st.metric("Model Accuracy", f"{model_accuracy:.1f}%", "🎯")
         
+
+        # State-wise analysis 
+        st.markdown('<h3 class="sub-header">🗺️ State-wise Emissions</h3>', unsafe_allow_html=True)
+        state_emissions = df.groupby('state')['co2_emission_kg'].agg(['mean', 'sum', 'count']).reset_index()
+        state_emissions.columns = ['State', 'Average', 'Total', 'Count']
+        fig = px.bar(state_emissions, x='State', y='Average',
+                             title='Average CO₂ Emissions by State')
+        fig.update_xaxes(tickangle=45)
+        st.plotly_chart(fig, use_container_width=True)
+
         # Charts
         col1, col2 = st.columns(2)
         
@@ -336,25 +350,15 @@ def main():
                     st.warning("⚠️ Your footprint is significantly above average. Consider reducing your impact!")
                 else:
                     st.info("📊 Your footprint is around average.")
-                
-                # Tips
-                # st.markdown("### 💡 Tips to Reduce Your Carbon Footprint:")
-                # tips = [
-                #     "🚲 Use public transport, walk, or bike instead of driving",
-                #     "💡 Switch to LED bulbs and energy-efficient appliances",
-                #     "🌱 Eat more plant-based meals and less meat",
-                #     "♻️ Reduce, reuse, and recycle waste",
-                #     "🌡️ Use programmable thermostats and insulate your home",
-                #     "💧 Conserve water and fix leaks promptly"
-                # ]
-                # for tip in tips:
-                #     st.markdown(f"• {tip}")
     
     elif page == "📈 Data Analysis":
         st.markdown('<h2 class="sub-header">📈 Data Analysis & Insights</h2>', unsafe_allow_html=True)
         
         # Data overview
         st.subheader("📊 Dataset Overview")
+
+
+
         col1, col2 = st.columns(2)
         
         with col1:
@@ -387,16 +391,6 @@ def main():
         fig = px.imshow(corr_matrix, text_auto=True, aspect="auto",
                         title="Feature Correlation Matrix")
         st.plotly_chart(fig, use_container_width=True)
-        
-        # State-wise analysis
-        st.subheader("🗺️ State-wise Emissions")
-        state_emissions = df.groupby('state')['co2_emission_kg'].agg(['mean', 'sum', 'count']).reset_index()
-        state_emissions.columns = ['State', 'Average', 'Total', 'Count']
-        
-        fig = px.bar(state_emissions, x='State', y='Average',
-                     title='Average CO₂ Emissions by State')
-        fig.update_xaxes(tickangle=45)
-        st.plotly_chart(fig, use_container_width=True)
     
     elif page == "🤖 Model Performance":
         st.markdown('<h2 class="sub-header">🤖 Machine Learning Model Performance</h2>', unsafe_allow_html=True)
@@ -417,16 +411,6 @@ def main():
         st.subheader("📊 Feature Importance")
         importance_chart = create_feature_importance_chart(model, feature_names)
         st.plotly_chart(importance_chart, use_container_width=True)
-        
-        # Model details
-        # st.subheader("⚙️ Model Configuration")
-        # st.json({
-        #     "algorithm": "Random Forest Regressor",
-        #     "n_estimators": 100,
-        #     "random_state": 42,
-        #     "test_size": 0.2,
-        #     "features": list(feature_names)
-        # })
         
         # Predictions vs Actual
         st.subheader("📈 Model Predictions")
